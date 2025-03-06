@@ -1,0 +1,29 @@
+main{
+    display:flex;
+    height: calc(100vh - 30px);
+}
+#list{
+    background-color: aqua;
+    flex: 6;
+    
+}
+#form{
+    background-color: azure;
+    flex: 6;
+}
+.task{
+    margin: 10px 20 px;
+    padding: 10px;
+    display: flex;
+    border:1px solid #333;
+}
+.task.info{
+    flex: 3;
+}
+.task.status{
+    flex: 1;
+}
+
+.task.dateBudget{
+    flex: 1;
+}
